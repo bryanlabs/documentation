@@ -4,7 +4,7 @@ title:  Before you start
 sidebar_label: start
 ---
 
-Warnings about the dangers of running eth2 nodes are in [RECOMMENDATIONS.md](RECOMMENDATIONS.md).
+Warnings about the dangers of running eth2 nodes are in [RECOMMENDATIONS.md](../usage/RECOMMENDATIONS.md).
 In particular, you must be sure to secure your seed phrase, the mnemonic. Without it, your
 staked funds *cannot* be withdrawn.
 
