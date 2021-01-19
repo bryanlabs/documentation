@@ -1,6 +1,6 @@
 ---
 id: acknowledgements
-title:  Welcome to the eth2-docker official documentation portal
+title:  acknowledgements
 sidebar_label: acknowledgements
 ---
 
