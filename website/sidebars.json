@@ -1,75 +1,15 @@
 {
   	"docs": {
 
-		"An introduction": 	[	"getting-started",
-								"introduction/on-ethereum-2"
-							],
-
-		"Joining eth2": [
-			"mainnet/joining-eth2",
-			"testnet/pyrmont"
-		],
-		"Installing Prysm": [
-			"install/install-with-script",
-			"install/install-with-docker",
-			"install/install-with-bazel"
+		"Acknowledgements": 	[	"acknowledgements"
 		],
 
-		"Running Prysm": 	[   
-			"prysm-usage/staying-up-to-date",
-			"prysm-usage/parameters",
-			"prysm-usage/setup-eth1",
-			"prysm-usage/graffiti-file",
-			"prysm-usage/p2p-host-ip",
-			"prysm-usage/database-backups",
-			"prysm-usage/is-everything-fine",
-			"prysm-usage/web-interface",
-			"prysm-usage/secure-grpc",
-			"prysm-usage/slasher",
-			"prysm-usage/monitoring/grafana-dashboard",
-			"faq"
+		"High Level Overview": [
+			"overview",
+			"getting-started"
 		],
-
-		"Wallet and accounts": 	[   
-			"wallet/introduction",
-			"wallet/deterministic",
-			"wallet/nondeterministic",
-			"wallet/remote",
-			"wallet/exiting-a-validator",
-			"wallet/ethdo"
-		],
-
-		"ETH2 API": 	["how-prysm-works/ethereum-2-public-api"],
-
-		"How Prysm works": 	[	"how-prysm-works/architecture-overview",
-								"how-prysm-works/beacon-node",
-								"how-prysm-works/prysm-validator-client",
-								"how-prysm-works/validator-lifecycle",
-								"how-prysm-works/validator-deposit-contract",
-								"how-prysm-works/database-backend-boltdb",
-								"how-prysm-works/p2p-networking",
-								"how-prysm-works/bls-cryptography"
-							],
-
-		"Developer tools": 	["devtools/block-explorers"],
-
-
-		"Contribute": [	
-			"contribute/doc-standards",
-			"contribute/contribution-guidelines",
-							"contribute/bugreports",
-							"contribute/golang-principles"
-						],
-
-		"Learn more": 	[ 	"terminology",
-							"reading/eth2",
-							"reading/golang",
-							"reading/testnet-postmortems"
-						],
-		"Audits": [
-			"audits/phase0"
-		],
-		
-		"Licenses": ["licenses/prysmatic-labs"]
-  	}
+		"Supported Clients": [
+			"clients"
+		]
+}
 }

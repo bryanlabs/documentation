@@ -1,56 +1,36 @@
 module.exports = {
-    title: 'Prysm',
-    tagline: 'Ethereum 2.0 implementation written entirely in Go.',
-    url: 'https://docs.prylabs.network',
+    title: 'eth2-docker',
+    tagline: 'Ethereum 2 Docker Client',
+    url: 'https://github.com/eth2-educators/eth2-docker',
     baseUrl: '/',
     onBrokenLinks: 'throw',
-    favicon: 'img/Prysm.svg',
-    organizationName: 'Prysmatic Labs',
-    projectName: 'prysm-docs',
+    favicon: 'img/Moby-logo.png',
+    organizationName: 'Eth2 Docker',
+    projectName: 'eth2-docker',
     customFields: {
-        image: 'img/Prysm.svg',
+        image: 'img/Moby-logo.png',
     },
     scripts: ['https://buttons.github.io/buttons.js'],
     themeConfig: {
         navbar: {
-            title: "Prysm Eth2 Docs",
+            title: "eth2-docker Docs",
             logo: {
-                alt: "Prysm logo",
-                src: 'img/logo2.png',
+                alt: "Docker logo",
+                src: 'img/Moby-logo.png',
             },
             items: [
                 {
-                    href: 'https://launchpad.ethereum.org',
-                    label: 'Join Eth2',
+                    href: 'https://github.com/eth2-educators/eth2-docker',
+                    label: 'Get Started',
                     position: 'right',
-                },
-                {
-                    label: 'Updating/Downgrading Versions',
-                    to: 'docs/prysm-usage/staying-up-to-date',
-                    position: 'right',
-                },
-                {
-                    href: 'https://github.com/prysmaticlabs/prysm',
-                    label: 'GitHub',
-                    position: 'right',
-                },
-                {
-                    href: 'https://api.prylabs.network',
-                    label: 'API',
-                    position: 'right',
-                },
-                {
-                    to: 'docs/faq',
-                    label: 'FAQ',
-                    position: 'right',
-                },
+                }
             ],
         },
         footer: {
             logo: {
-                alt: "Prysm Eth2 Docs",
+                alt: "eth2-docker Docs",
                 href: '/',
-                src: 'img/Prysm.svg',
+                src: 'img/Moby-logo.png',
             },
             copyright: `Copyright © ${new Date().getFullYear()} Prysmatic Labs, LLC., Validator Deposit Contract 0x00000000219ab540356cbb839cbe05303d7705fa`,
             links: [],
@@ -59,15 +39,7 @@ module.exports = {
             apiKey: 'd56b00e670b1ea4c44047c2d34807f6d',
             indexName: 'prysmaticlabs_prysm',
             algoliaOptions: {}
-        },
-        googleAnalytics: {
-            trackingID: 'UA-139640266-2',
-        },
-        prism: {
-            theme: require('prism-react-renderer/themes/dracula'),
-        },
-        ogImage: 'img/Prysm.svg',
-        twitterImage: 'img/Prysm.svg',
+        }
     },
     presets: [
         [
@@ -79,9 +51,9 @@ module.exports = {
                     sidebarPath: require.resolve('./sidebars.json'),
                     editUrl: 'https://github.com/prysmaticlabs/documentation/edit/master/website/',
                 },
-                theme: {
-                    customCss: require.resolve('./src/css/custom.css'),
-                },
+                // theme: {
+                //     customCss: require.resolve('./src/css/custom.css'),
+                // },
                 sitemap: {
                     cacheTime: 600 * 1000,
                     changefreq: 'weekly',
