@@ -1,15 +1,13 @@
 {
   	"docs": {
 
-		"Acknowledgements": 	[	"acknowledgements"
-		],
-
 		"High Level Overview": [
-			"overview",
-			"getting-started"
+			"acknowledgements",
+			"overview"
 		],
 		"Supported Clients": [
-			"clients"
+			"clients",
+			"WEB"
 		]
 }
 }
